@@ -14,14 +14,19 @@ body {
   max-width: 400px;
   margin: 20vh auto 0 auto;
   box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+  background-color: mediumslateblue;  
+  padding: 5px;
 }
 
 #display {
+  background-color: #222;
+  color: #fff;
   text-align: right;
   height: 70px;
   line-height: 70px;
   padding: 16px 8px;
   font-size: 25px;
+  margin-bottom: 7px;
 }
 
 .btn-container {
@@ -29,11 +34,12 @@ body {
   border-bottom: 1px solid #999;
   border-left: 1px solid #999;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 7px;  
 }
 
 .btn-container > div {
   border-top: 1px solid #999;
-  border-right: 1px solid #999;
+  border-right: 1px solid #999;  
 }
 
 .btn {
@@ -41,20 +47,30 @@ body {
   line-height: 100px;
   text-align: center;
   font-size: 25px;
-  cursor: pointer;
+  cursor: pointer; 
+  background-color: rgb(216, 216, 216); 
+}
+
+.clear {
+    background-color: rgb(245, 55, 55);
+}
+
+.functional {
+    background-color: rgb(206, 76, 76);
+    color: #000;
 }
 
 #equal {
-  background-color: #5555ff;
+  background-color: #0808ff;
   color: #fff;
 }
 
 .btn:hover {
-    background-color: #111;
-    color: #fff;
-    transition: .5s ease-in-out;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -ms-transition: .5s ease-in-out;
-    -o-transition: .7s ease-in-out;
+  background-color: #111;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
 }
