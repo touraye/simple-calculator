@@ -6,5 +6,5 @@ Build a simple calculator with:
 * CSS
 * JavaScript
 
-[See Demo]()
+[See Demo](https://touraye.github.io/simple-calculator/)
 
