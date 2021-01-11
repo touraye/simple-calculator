@@ -84,7 +84,7 @@ Mobile navigation
 @media(max-width: 568px){
     .container{
       max-width: 320px;
-      margin: 2vh auto 0 auto;
+      margin: 5vh auto 0 auto;
     } 
       .btn {  
   line-height: 80px;  
@@ -95,7 +95,7 @@ Mobile navigation
 @media(max-width: 368px){
     .container{
       max-width: 300px;
-      margin: 2vh auto 0 auto;
+      margin: 5vh auto 0 auto;
     }
     .btn {  
   line-height: 70px;  
