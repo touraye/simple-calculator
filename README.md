@@ -1,6 +1,14 @@
 # Simple Calculator
 
-Build a simple calculator with:
+
+
+## Preview
+
+<img src="./assets/images/preview.png"/>
+
+
+
+Build a simple calculator with:  
 
 * HTML
 * CSS
